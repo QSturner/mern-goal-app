@@ -1,0 +1,29 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "Goal setter app made following YouTube tutorial.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QSturner/mern-tutorial.git"
+  },
+  "author": "Quentin Sturner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QSturner/mern-tutorial/issues"
+  },
+  "homepage": "https://github.com/QSturner/mern-tutorial#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
