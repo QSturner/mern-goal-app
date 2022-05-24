@@ -5,7 +5,7 @@
     "main": "server.js",
     "scripts": {
         "start": "node backend/server.js",
-        "server": "nodemon backend/server.js",
+        "server": "nodemon backend/server.js --ignore client",
         "client": "npm start --prefix frontend",
         "dev": "concurrently \"npm run server\" \"npm run client\""
     },
@@ -25,6 +25,7 @@
         "dotenv": "^16.0.1",
         "express": "^4.18.1",
         "express-async-handler": "^1.2.0",
+        "http-proxy-middleware": "^2.0.6",
         "jsonwebtoken": "^8.5.1",
         "mongoose": "^6.3.4"
     },
